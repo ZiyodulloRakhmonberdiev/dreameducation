@@ -196,7 +196,18 @@
     border-color: var(--primary);
 }
 
-.page-header {
+.page-header-one{
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .5)), url(../img/carousel-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 768px){
+    .page-header-one{
+        padding: 300px 0;   
+    }
+}
+.page-header{
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
