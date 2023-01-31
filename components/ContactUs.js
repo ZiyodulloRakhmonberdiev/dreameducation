@@ -26,7 +26,7 @@ export default function ContactUs() {
                 <i className="fa fa-map-marker-alt text-white" />
               </div>
               <div className="ms-3">
-                <h5 className="text-primary">Ofis</h5>
+                <h5 className="text-primary mb-0">Ofis</h5>
                 <p className="mb-0">
                   Mustaqillik ko'chasi, Marg'ilon shahar markazi, Farg'ona
                   viloyati, O'zbekiston
@@ -41,7 +41,7 @@ export default function ContactUs() {
                 <i className="fa fa-phone-alt text-white" />
               </div>
               <div className="ms-3">
-                <h5 className="text-primary">Telefon</h5>
+                <h5 className="text-primary mb-0">Telefon</h5>
                 <p className="mb-0">+99891 670 78 75</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function ContactUs() {
                 <i className="fa fa-envelope-open text-white" />
               </div>
               <div className="ms-3">
-                <h5 className="text-primary">Telegram</h5>
+                <h5 className="text-primary mb-0">Telegram</h5>
                 <p className="mb-0">@dream5756</p>
               </div>
             </div>

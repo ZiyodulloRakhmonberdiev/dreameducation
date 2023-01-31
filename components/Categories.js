@@ -21,7 +21,9 @@ export default function Categories() {
                   className="position-relative d-block overflow-hidden"
                   href=""
                 >
-                  <img className="img-fluid" src="img/cat-1.jpg" alt="" />
+                  <picture>
+                    <img className="img-fluid" src="img/cat-1.jpg" alt="" />
+                  </picture>
                   <div
                     className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style={{ margin: 1 }}
@@ -38,7 +40,9 @@ export default function Categories() {
                   className="position-relative d-block overflow-hidden"
                   href=""
                 >
-                  <img className="img-fluid" src="img/cat-2.jpg" alt="" />
+                  <picture>
+                    <img className="img-fluid" src="img/cat-2.jpg" alt="" />
+                  </picture>
                   <div
                     className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style={{ margin: 1 }}
@@ -56,7 +60,9 @@ export default function Categories() {
                   className="position-relative d-block overflow-hidden"
                   href=""
                 >
-                  <img className="img-fluid" src="img/cat-3.jpg" alt="" />
+                  <picture>
+                    <img className="img-fluid" src="img/cat-3.jpg" alt="" />
+                  </picture>
                   <div
                     className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style={{ margin: 1 }}
@@ -77,12 +83,14 @@ export default function Categories() {
               className="position-relative d-block h-100 overflow-hidden"
               href=""
             >
-              <img
-                className="img-fluid position-absolute w-100 h-100"
-                src="img/cat-4.jpg"
-                alt=""
-                style={{ objectFit: "cover" }}
-              />
+              <picture>
+                <img
+                  className="img-fluid position-absolute w-100 h-100"
+                  src="img/cat-4.jpg"
+                  alt=""
+                  style={{ objectFit: "cover" }}
+                />
+              </picture>
               <div
                 className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                 style={{ margin: 1 }}

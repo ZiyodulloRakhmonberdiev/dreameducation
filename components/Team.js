@@ -14,7 +14,9 @@ export default function Team() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="team-item bg-light">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                </picture>
               </div>
               <div
                 className="position-relative d-flex justify-content-center"
@@ -41,7 +43,9 @@ export default function Team() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="team-item bg-light">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                </picture>
               </div>
               <div
                 className="position-relative d-flex justify-content-center"
@@ -68,7 +72,9 @@ export default function Team() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="team-item bg-light">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                </picture>
               </div>
               <div
                 className="position-relative d-flex justify-content-center"
@@ -95,7 +101,9 @@ export default function Team() {
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
             <div className="team-item bg-light">
               <div className="overflow-hidden">
-                <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                </picture>
               </div>
               <div
                 className="position-relative d-flex justify-content-center"

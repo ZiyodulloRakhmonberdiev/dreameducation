@@ -14,7 +14,9 @@ export default function Courses() {
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="course-item bg-light">
               <div className="position-relative overflow-hidden">
-                <img className="img-fluid" src="img/course-1.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/course-1.jpg" alt="" />
+                </picture>
                 <div className="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                   <Link
                     href="https://t.me/koreys_tili_dream"
@@ -62,7 +64,9 @@ export default function Courses() {
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div className="course-item bg-light">
               <div className="position-relative overflow-hidden">
-                <img className="img-fluid" src="img/course-2.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/course-2.jpg" alt="" />
+                </picture>
                 <div className="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                   <Link
                     href="https://t.me/koreys_tili_dream"
@@ -110,7 +114,9 @@ export default function Courses() {
           <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="course-item bg-light">
               <div className="position-relative overflow-hidden">
-                <img className="img-fluid" src="img/course-3.jpg" alt="" />
+                <picture>
+                  <img className="img-fluid" src="img/course-3.jpg" alt="" />
+                </picture>
                 <div className="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                   <Link
                     href="https://t.me/koreys_tili_dream"

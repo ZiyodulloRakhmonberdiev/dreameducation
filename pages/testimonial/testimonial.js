@@ -1,9 +1,10 @@
-"use client";
 import Link from "next/link";
-import Footer from "../components/Footer";
-import HeadItems from "./Head.js";
 
-export default function NotFound() {
+import HeadItems from "../Head";
+import Testimonial from "../../components/Testimonial";
+import Footer from "../../components/Footer";
+
+export default function index() {
   return (
     <>
       <HeadItems />
@@ -63,19 +64,18 @@ export default function NotFound() {
           </Link>
         </div>
       </nav>
-      {/* Navbar End */}
       {/* Header Start */}
       <div className="container-fluid bg-primary py-5 mb-5 page-header">
         <div className="container py-5">
           <div className="row justify-content-center">
             <div className="col-lg-10 text-center">
               <h1 className="display-3 text-white animated slideInDown">
-                Sahifa topilmadi
+                Izohlar
               </h1>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb justify-content-center">
                   <li className="breadcrumb-item">
-                    <Link className="text-white" href="#">
+                    <Link className="text-white" href="/">
                       Bosh sahifa
                     </Link>
                   </li>
@@ -83,7 +83,7 @@ export default function NotFound() {
                     className="breadcrumb-item text-white active"
                     aria-current="page"
                   >
-                    404
+                    Izohlar
                   </li>
                 </ol>
               </nav>
@@ -91,21 +91,7 @@ export default function NotFound() {
           </div>
         </div>
       </div>
-      {/* Header End */}
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container text-center">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <i className="bi bi-exclamation-triangle display-1 text-primary" />
-              <h1 className="display-1">404</h1>
-              <h1 className="mb-4">Sahifa topilmadi</h1>
-              <Link className="btn btn-primary rounded-pill py-3 px-5" href="/">
-                Bosh sahifaga qaytish
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Testimonial />
       <Link
         href="#"
         className="btn btn-lg btn-primary btn-lg-square back-to-top"

@@ -10,11 +10,14 @@ export default function Testimonial() {
         </div>
         <div className="owl-carousel testimonial-carousel position-relative">
           <div className="testimonial-item text-center">
-            <img
-              className="border rounded-circle p-2 mx-auto mb-3"
-              src="img/testimonial-1.jpg"
-              style={{ width: 80, height: 80 }}
-            />
+            <picture>
+              <img
+                className="border rounded-circle p-2 mx-auto mb-3"
+                src="img/testimonial-1.jpg"
+                style={{ width: 80, height: 80 }}
+                alt=""
+              />
+            </picture>
             <h5 className="mb-0">Client Name</h5>
             <p>Profession</p>
             <div className="testimonial-text bg-light text-center p-4">
@@ -25,11 +28,14 @@ export default function Testimonial() {
             </div>
           </div>
           <div className="testimonial-item text-center">
-            <img
-              className="border rounded-circle p-2 mx-auto mb-3"
-              src="img/testimonial-2.jpg"
-              style={{ width: 80, height: 80 }}
-            />
+            <picture>
+              <img
+                className="border rounded-circle p-2 mx-auto mb-3"
+                src="img/testimonial-2.jpg"
+                style={{ width: 80, height: 80 }}
+                alt=""
+              />
+            </picture>
             <h5 className="mb-0">Client Name</h5>
             <p>Profession</p>
             <div className="testimonial-text bg-light text-center p-4">
@@ -40,11 +46,14 @@ export default function Testimonial() {
             </div>
           </div>
           <div className="testimonial-item text-center">
-            <img
-              className="border rounded-circle p-2 mx-auto mb-3"
-              src="img/testimonial-3.jpg"
-              style={{ width: 80, height: 80 }}
-            />
+            <picture>
+              <img
+                className="border rounded-circle p-2 mx-auto mb-3"
+                src="img/testimonial-3.jpg"
+                style={{ width: 80, height: 80 }}
+                alt=""
+              />
+            </picture>
             <h5 className="mb-0">Client Name</h5>
             <p>Profession</p>
             <div className="testimonial-text bg-light text-center p-4">
@@ -55,11 +64,14 @@ export default function Testimonial() {
             </div>
           </div>
           <div className="testimonial-item text-center">
-            <img
-              className="border rounded-circle p-2 mx-auto mb-3"
-              src="img/testimonial-4.jpg"
-              style={{ width: 80, height: 80 }}
-            />
+            <picture>
+              <img
+                className="border rounded-circle p-2 mx-auto mb-3"
+                src="img/testimonial-4.jpg"
+                style={{ width: 80, height: 80 }}
+                alt=""
+              />
+            </picture>
             <h5 className="mb-0">Client Name</h5>
             <p>Profession</p>
             <div className="testimonial-text bg-light text-center p-4">

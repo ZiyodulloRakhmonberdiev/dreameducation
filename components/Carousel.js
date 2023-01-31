@@ -3,7 +3,9 @@ export default function Carousel() {
   return (
     <div className="p-0 mb-5 d-flex justify-content-center">
       <div className="position-relative">
-        <img className="img-fluid" src="img/carousel-2.jpg" alt="" />
+        <picture>
+          <img className="img-fluid" src="img/carousel-2.jpg" alt="" />
+        </picture>
         <div
           className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
           style={{ background: "rgba(24, 29, 56, .7)" }}

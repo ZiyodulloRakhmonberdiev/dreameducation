@@ -48,46 +48,58 @@ export default function Footer() {
               <h4 className="text-white mb-3">Galereya</h4>
               <div className="row g-2 pt-2">
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-1.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-1.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-2.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-2.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-3.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-3.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-2.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-2.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-3.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-3.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
                 <div className="col-4">
-                  <img
-                    className="img-fluid bg-light p-1"
-                    src="img/course-1.jpg"
-                    alt=""
-                  />
+                  <picture>
+                    <img
+                      className="img-fluid bg-light p-1"
+                      src="img/course-1.jpg"
+                      alt=""
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -173,15 +185,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      {/* JavaScript Libraries  */}
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="lib/wow/wow.min.js"></script>
-      <script src="lib/easing/easing.min.js"></script>
-      <script src="lib/waypoints/waypoints.min.js"></script>
-      {/* <script src="lib/owlcarousel/owl.carousel.js"></script> */}
-      {/* Template Javascript  */}
-      <script src="js/main.js"></script>
     </>
   );
 }
